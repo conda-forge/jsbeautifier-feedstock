@@ -1,4 +1,4 @@
-About jsbeautifier
+About jsbeautifier 
 ==================
 
 Home: https://beautifier.io
