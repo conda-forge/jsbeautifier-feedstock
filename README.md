@@ -117,4 +117,3 @@ Feedstock Maintainers
 =====================
 
 * [@mitchellwood](https://github.com/mitchellwood/)
-
