@@ -52,7 +52,7 @@ conda search jsbeautifier --channel conda-forge
 ```
 
 
-About conda-forge 
+About conda-forge
 =================
 
 [![Powered by
