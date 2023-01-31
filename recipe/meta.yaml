@@ -11,7 +11,7 @@ source:
   sha256: 84fdb008d8af89619269a6aca702288b48f837a99427a0f529aa57ecfb36ee3c
 
 build:
-  number: 1
+  number: 2
   noarch: python
   entry_points:
     - js-beautify = jsbeautifier:main
@@ -46,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - mitchellwood
+    - fhoehle
