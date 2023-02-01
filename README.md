@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@fhoehle](https://github.com/fhoehle/)
 * [@mitchellwood](https://github.com/mitchellwood/)
+* [@whophil](https://github.com/whophil/)
 
