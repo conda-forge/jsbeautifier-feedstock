@@ -1,5 +1,5 @@
 {% set name = "jsbeautifier" %}
-{% set version = "1.14.9" %}
+{% set version = "1.15.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jsbeautifier-{{ version }}.tar.gz
-  sha256: c738ebc36b47bd94e4ca6dd17a9004c3cc74edad582ca1d60e0e5d5945a63cb9
+  sha256: b44acb3e890799985999fa38247b6ed5766d8a7de912b6f1ff8d41ca3cd1b53f
 
 build:
   number: 0
