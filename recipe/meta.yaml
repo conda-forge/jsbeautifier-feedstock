@@ -6,11 +6,11 @@ package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jsbeautifier-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jsbeautifier-{{ version }}.tar.gz
   sha256: ebd733b560704c602d744eafc839db60a1ee9326e30a2a80c4adb8718adc1b24
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - js-beautify = jsbeautifier:main
@@ -20,10 +20,10 @@ requirements:
   host:
     - pip
     - pytest
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - editorconfig >=0.12.2
-    - python >=3.6
+    - python >={{ python_min }}
     - six >=1.13.0
 
 test:
@@ -35,6 +35,7 @@ test:
     - js-beautify --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://beautifier.io
