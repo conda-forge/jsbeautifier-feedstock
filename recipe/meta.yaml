@@ -25,7 +25,6 @@ requirements:
   run:
     - editorconfig >=0.12.2
     - python >={{ python_min }}
-    - six >=1.13.0
 
 test:
   imports:
