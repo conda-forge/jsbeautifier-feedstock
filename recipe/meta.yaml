@@ -21,6 +21,7 @@ requirements:
     - pip
     - pytest
     - python {{ python_min }}
+    - setuptools
   run:
     - editorconfig >=0.12.2
     - python >={{ python_min }}
